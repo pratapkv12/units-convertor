@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Unit Converter</h1>
+    </header>
+    <main>
+        <div class="converter">
+            <h2>Unit Converter</h2>
+            <input type="number" id="input-value" placeholder="Enter value" />
+            <select id="from-unit">
+                <optgroup label="Length">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                    <option value="micrometer">Micrometer</option>
+                    <option value="nanometer">Nanometer</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                </optgroup>
+                <optgroup label="Mass">
+                    <option value="kilogram">Kilogram</option>
+                    <option value="gram">Gram</option>
+                    <option value="milligram">Milligram</option>
+                    <option value="microgram">Microgram</option>
+                    <option value="ton">Ton</option>
+                    <option value="pound">Pound</option>
+                    <option value="ounce">Ounce</option>
+                </optgroup>
+                <optgroup label="Volume">
+                    <option value="liter">Liter</option>
+                    <option value="milliliter">Milliliter</option>
+                    <option value="cubic_meter">Cubic Meter</option>
+                    <option value="cubic_centimeter">Cubic Centimeter</option>
+                    <option value="cubic_inch">Cubic Inch</option>
+                    <option value="cubic_foot">Cubic Foot</option>
+                    <option value="gallon">Gallon</option>
+                    <option value="quart">Quart</option>
+                    <option value="pint">Pint</option>
+                    <option value="cup">Cup</option>
+                    <option value="fluid_ounce">Fluid Ounce</option>
+                </optgroup>
+            </select>
+            <P style="font-size: x-large;"><strong>TO</strong></P>
+            <select id="to-unit">
+                <optgroup label="Length">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="centimeter">Centimeter</option>
+                    <option value="millimeter">Millimeter</option>
+                    <option value="micrometer">Micrometer</option>
+                    <option value="nanometer">Nanometer</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                    <option value="foot">Foot</option>
+                    <option value="inch">Inch</option>
+                </optgroup>
+                <optgroup label="Mass">
+                    <option value="kilogram">Kilogram</option>
+                    <option value="gram">Gram</option>
+                    <option value="milligram">Milligram</option>
+                    <option value="microgram">Microgram</option>
+                    <option value="ton">Ton</option>
+                    <option value="pound">Pound</option>
+                    <option value="ounce">Ounce</option>
+                </optgroup>
+                <optgroup label="Volume">
+                    <option value="liter">Liter</option>
+                    <option value="milliliter">Milliliter</option>
+                    <option value="cubic_meter">Cubic Meter</option>
+                    <option value="cubic_centimeter">Cubic Centimeter</option>
+                    <option value="cubic_inch">Cubic Inch</option>
+                    <option value="cubic_foot">Cubic Foot</option>
+                    <option value="gallon">Gallon</option>
+                    <option value="quart">Quart</option>
+                    <option value="pint">Pint</option>
+                    <option value="cup">Cup</option>
+                    <option value="fluid_ounce">Fluid Ounce</option>
+                </optgroup>
+            </select>
+            <div id="result">Result: </div>
+            <button id="convert-button">Convert</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
